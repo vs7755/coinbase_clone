@@ -3,61 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coinbase - Buy & Sell Bitcoin, Ethereum, and more with trust</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>GHOST'S</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section>
+    <header class="header">
+        <!-- Logo and name -->
+        <div class="left">
+            <img src="images/logo.png" alt="Logo">
+            <div>GHOST'S</div>
+        </div>
         <!-- Navbar -->
-        <div class="container">
-            <h1 class="i1">coinbase</h1>
-            <div class="nav-items">
-                <div class="nav-item">Explore</div>
-                <div class="nav-item">Web3</div>
-                <div class="nav-item">Learn</div>
-                <div class="nav-item">Individuals</div>
-                <div class="nav-item">Businesses</div>
-                <div class="nav-item">Developers</div>
-                <div class="nav-item">Company</div>
-                <div class="nav-item">Sign in</div>
-                <div class="nav-item"><button class="btn1">Get started</button></div>
-            </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
         </div>
-    </section>
-    <hr style="color: rgb(184, 188, 192);">
-    <section>
-        <div class="gridcontainer">
-            <div class="g1">
-                <p style="color: rgb(1, 76, 236);">
-                    <img src="./images/icons8-bitcoin.svg" alt="Bitcoin icon">
-                    Jump start your portfolio
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                    </svg>
-                </p>
-            </div>
-            <div class="g2">
-                <h1>Jump start your crypto portfolio</h1>
-            </div>
-            <div class="g3">
-                <h2 class="subtitle">Coinbase is the easiest place to buy and sell cryptocurrency. Sign up and get started today.</h2>
-            </div>
-            <div class="g4">
-                <input type="text" name="email" placeholder="Email address" id="getstarted" class="email-input">
-                <button class="get-started-btn">Get started</button>
-            </div>
-            <div class="g5"><img src="./images/iphone.png" alt="iPhone image"></div>
-            <div class="g6"></div>
-            <div class="g7"></div>
-            <div class="g8"></div>
+        <!-- Buttons -->
+        <div class="right">
+            <button class="btn">Email us now</button>
+            <button class="btn">Follow us on Facebook</button>
         </div>
-    </section>
+    </header>
+    <div class="container">
+        <form action="noaction.php">
+            <h1>Join Ghosts now</h1>
+            <!-- Form inputs -->
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Phone number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
